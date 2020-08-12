@@ -1,0 +1,5 @@
+#!/bin/sh
+
+SophosUUID=$( defaults read /Library/Preferences/com.sophos.mcs.plist SMEMcsEndpointUUID )
+
+echo "<result>$SophosUUID</result>"
