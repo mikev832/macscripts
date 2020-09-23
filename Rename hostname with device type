@@ -1,0 +1,21 @@
+#!/bin/sh
+
+#gets current logged in user
+getUser=$(ls -l /dev/console | awk '{ print $3 }')
+
+#gets computer model
+computerModel=$(sysctl hw.model | awk '{print substr($2, 1, length($2)-3)}' )
+
+#returns values
+echo $getUsers
+echo $computerModel
+
+#sets string to set for hostname
+computerName=$getUser"-"$computerModel
+
+echo $computerName
+
+#set all the name in all the places
+sudo scutil --set ComputerName "$computerName"
+sudo scutil --set LocalHostName "$computerName"
+sudo scutil --set HostName "$computerName"
