@@ -2,7 +2,7 @@
     "preferences": {
         "button_title_text": "Ready to start the update?",
         "button_sub_titletext": "Click on the button below.",
-        "cut_off_date": "2021-12-31-00:00",
+        "cut_off_date": "2019-12-31-00:00",
         "cut_off_date_warning": 30,
         "days_between_notifications": 0,
         "logo_path": "/path/to/company_logo.png",
@@ -30,6 +30,6 @@
     },
     "software_updates": [{
         "name": "091-22861",
-        "force_install_date": "2021-12-31-00:00"
+        "force_install_date": "2019-12-31-00:00"
     }]
 }
