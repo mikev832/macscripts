@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.github.macadmins.Nudge</string>
+	<key>LimitLoadToSessionType</key>
+	<array>
+		<string>Aqua</string>
+	</array>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Applications/Utilities/Nudge.app/Contents/MacOS/Nudge</string>
+		<string>-json-url</string>
+		<string>https://raw.githubusercontent.com/mikev832/macscripts/master/com.github.macadmins.Nudge.json</string>
+		<!-- <string>-demo-mode</string> -->
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+		<key>StartCalendarInterval</key>
+	<!-- Run only on weekdays, twice a day -->
+	<array>
+		<dict>
+			<key>Weekday</key>
+			<integer>1</integer>
+			<key>hour</key>
+			<integer>9</integer>
+		</dict>
+		<dict>
+			<key>Weekday</key>
+			<integer>1</integer>
+			<key>hour</key>
+			<integer>17</integer>
+		</dict>
+		<dict>
+			<key>Weekday</key>
+			<integer>2</integer>
+			<key>hour</key>
+			<integer>9</integer>
+		</dict>
+		<dict>
+			<key>Weekday</key>
+			<integer>2</integer>
+			<key>hour</key>
+			<integer>17</integer>
+		</dict>
+		<dict>
+			<key>Weekday</key>
+			<integer>3</integer>
+			<key>hour</key>
+			<integer>9</integer>
+		</dict>
+		<dict>
+			<key>Weekday</key>
+			<integer>3</integer>
+			<key>hour</key>
+			<integer>17</integer>
+		</dict>
+		<dict>
+			<key>Weekday</key>
+			<integer>4</integer>
+			<key>hour</key>
+			<integer>9</integer>
+		</dict>
+		<dict>
+			<key>Weekday</key>
+			<integer>4</integer>
+			<key>hour</key>
+			<integer>17</integer>
+		</dict>
+		<dict>
+			<key>Weekday</key>
+			<integer>5</integer>
+			<key>hour</key>
+			<integer>9</integer>
+		</dict>
+		<dict>
+			<key>Weekday</key>
+			<integer>5</integer>
+			<key>hour</key>
+			<integer>17</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
