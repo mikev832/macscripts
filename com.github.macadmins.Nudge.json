@@ -4,44 +4,31 @@
     "attemptToFetchMajorUpgrade": true,
     "enforceMinorUpdates": true
   },
-  "osVersionRequirements": [
-    {
-      "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT211896#macos1121",
-      "aboutUpdateURLs": [
-        {
-          "_language": "en",
-          "aboutUpdateURL": "https://support.apple.com/en-us/HT211896#macos1121"
-        },
-        {
-          "_language": "es",
-          "aboutUpdateURL": "https://support.apple.com/es-es/HT211896"
-        },
-        {
-          "_language": "fr",
-          "aboutUpdateURL": "https://support.apple.com/fr-fr/HT211896"
-        },
-        {
-          "_language": "de",
-          "aboutUpdateURL": "https://support.apple.com/de-de/HT211896"
-        }
-      ],
-      "majorUpgradeAppPath": "/Applications/Install macOS Big Sur.app",
-      "requiredInstallationDate": "2021-08-28T00:00:00Z",
-      "requiredMinimumOSVersion": "11.5",
-      "targetedOSVersions": [
-        "11.0",
-        "11.0.1",
-        "11.1",
-        "11.2",
-        "11.2.1",
-        "11.2.2",
-        "11.2.3",
-        "11.3",
-        "11.3.1",
-        "11.4"
-      ]
-    }
-  ],
+  {
+    "osVersionRequirements": [
+      {
+        "aboutUpdateURL": "https://apple.com",
+        "requiredInstallationDate": "2021-12-30T00:00:00Z",
+        "requiredMinimumOSVersion": "11.6.2",
+        "targetedOSVersions": [
+          "11.0",
+          "11.0.1",
+          "11.1",
+          "11.2",
+          "11.2.1",
+          "11.2.2",
+          "11.2.3",
+          "11.3",
+          "11.3.1",
+          "11.4",
+          "11.5",
+          "11.5.1",
+          "11.5.2"
+        ],
+        "targetedOSVersionsRule": "default"
+      }
+    ]
+}
   "userExperience": {
     "allowedDeferrals": 1000000,
     "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
