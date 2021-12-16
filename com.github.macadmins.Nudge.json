@@ -29,10 +29,18 @@
           "aboutUpdateURL": "https://support.apple.com/de-de/HT211896"
         }
       ],
-      "majorUpgradeAppPath": "/Applications/Install macOS Monterey.app",
-      "requiredInstallationDate": "2021-12-28T00:00:00Z",
+    {
+      "aboutUpdateURL": "https://support.apple.com/en-us/HT211896",
+      "requiredInstallationDate": "2021-12-31T00:00:00Z",
+      "requiredMinimumOSVersion": "11.6.2",
+      "targetedOSVersionsRule": "11"
+    },
+    {
+      "aboutUpdateURL": "https://www.apple.com/macos/monterey-preview/",
+      "requiredInstallationDate": "2021-12-31T00:00:00Z",
       "requiredMinimumOSVersion": "12.1",
-      "targetedOSVersionsRule": "default"
+      "targetedOSVersionsRule": "12"
+    }
     }
   ],
   "userExperience": {
