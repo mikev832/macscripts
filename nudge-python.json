@@ -16,7 +16,7 @@
     "paragraph2_text": "If you do not update your computer, you may lose access to some items necessary for your day-to-day tasks.",
     "paragraph3_text": "To begin the update, simply click on the button below and follow the provided steps.",
     "paragraph_title_text": "A security update is required on your machine.",
-    "local_url_for_upgrade": "jamfselfservice://content?entity=policy&id=<272>&action=view"
+    "local_url_for_upgrade": "jamfselfservice://content?entity=policy&id=<272>&action=view",
     "path_to_app": "/Applications/Install macOS Catalina.app",
     "random_delay": false,
     "screenshot_path": "/Library/nudge/Resources/update_ss.png",
