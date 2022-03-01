@@ -9,7 +9,7 @@
     "main_subtitle_text": "A friendly reminder from your local IT team",
     "main_title_text": "macOS Update",
     "minimum_os_version": "10.15.7",
-    "minimum_os_sub_build_version": "19H1715",
+    "minimum_os_sub_build_version": "19H1716",
     "more_info_url": "https://www.google.com",
     "time_between_notifications": 10,
     "no_timer": false,
